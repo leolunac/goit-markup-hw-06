@@ -27,6 +27,7 @@ html {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 
 body {
@@ -392,19 +393,19 @@ header .container .page-header-contain li .link:hover .icon {
   background-color: var(--color-web);
 }
 
-.team-cards .team-cards li h3 {
-  margin: 20px 0 10px 0;
+.team-cards li > h3 {
+  margin: 30px 0 10px 0;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-section .container .team-cards li p {
-  margin-bottom: 10px;
+.team-section .container .team-cards li > p {
+  margin: 10px 0;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -418,10 +419,10 @@ header .container .page-header-contain li .link:hover .icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  column-gap: 15px;
   border-radius: 0px 0px 4px 4px;
   padding: 10px 20px;
-  margin-bottom: 20px;
+  margin: 1rem 0;
 }
 .team-section .container .team-cards li ul li {
   display: block;
@@ -571,10 +572,9 @@ footer .container aside ul li > a:focus {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-contact-us inpu  text-transform: uppercase;
+  text-transform: uppercase;
   color: var(--color-primario-fondo-pantalla);
   padding-bottom: 20px;
-  margin-right: 50px;
 }
 .contact-us .flex {
   display: flex;
